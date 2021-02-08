@@ -46,7 +46,7 @@ function Player(props) {
             <h4>Playing now</h4>
             <Display song={props.songs[props.currentTrackIndex]} />
             <Controls isPlaying={isPlaying} setIsPlaying={setIsPlaying} SkipSong={SkipSong} />
-            <p>Next up: <span>{props.songs[props.nextTrackIndex].title} by {props.songs[props.nextTrackIndex].artist}</span></p>
+            <p>Next: <span>{props.songs[props.nextTrackIndex].title} by {props.songs[props.nextTrackIndex].artist}</span></p>
         </div>
     )
 }
