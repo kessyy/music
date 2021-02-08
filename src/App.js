@@ -32,6 +32,18 @@ function App() {
       artist: "Adele",
       img_src: "./images/Adele.jpg",
       src: "./tracks/Water-Under-the-Bridge.mp3"
+    },
+    {
+      title: "Single & Searching",
+      artist: "Yemi Alade ft Falz",
+      img_src: "./images/yemi.jpg",
+      src: "./tracks/Single-&-Searching.mp3"
+    },
+    {
+      title: "Vibration",
+      artist: "Fireboy DML",
+      img_src: "./images/fireboy.jpg",
+      src: "./tracks/VIBRATION.mp3"
     }
   ]);
 
